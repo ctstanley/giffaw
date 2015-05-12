@@ -1,6 +1,8 @@
 $(document).ready(function(){
   // press enter to search
+  // cleaned up the mockData script from before
   alert("Ready?");
+  var check = 0;
   $("#input").keypress(function(e){
   	var keycode = (e.keyCode ? e.keyCode : e.which)
   	if (keycode == '13'){
